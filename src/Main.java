@@ -6,6 +6,7 @@ public class Main {
 
         Animal animal = new Animal();
         animal.eat();
+        animal.name = null;
 
         Cat cat = new Cat();
         cat.eat();
